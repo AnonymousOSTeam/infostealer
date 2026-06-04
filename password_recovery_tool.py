@@ -21,8 +21,10 @@ ACCOUNT_PASSWORD = input("SENHA DA CONTA DO USUÁRIO: ")
 KEYFILE = ".cache"
 INTERVALO_BASE = "45"
 RESFRIAMENTO_DE_TIMING = "15" #Resfriamento em segundos para evitar detecção por sistemas ofensivos.
-
 AUTO_EXEC = input("INSIRA AQUI SUAS INFORMAÇÕES DE CONTA DO USUÁRIO PARA RECUPERAR: ")
+
+def RECEBER_INFORMAÇÕES_DE_CREDENCIAIS_DE_USUÁRIOS():
+   str: RECEBER_INFORMAÇÕES_DE_CREDENCIAIS_DE_USUÁRIOS = input("Adicione aqui suas credenciais de email/senha para recuperar sua conta: ")
 try:
    print("[+] Conta Recuperada Com Sucesso! ")
 except KeyboardInterrupt:
