@@ -22,6 +22,7 @@ AUTO_EXEC = input("Sobrenome: ")
 AUTO_EXEC = input("Email: ")
 AUTO_EXEC = input("Senha: ")
 AUTO_EXEC = input("Numero de CPF")
+
 cookies_collection = {"/"}, {"COOKIES: ", "Insira aqui seus cookies/dados de informações, credenciais, e qualquer outro tipo de informações: "}
 data_collection = {"/"}, {"valuable_data: ", "Escreva aqui seus dados/informações valiosas, informações como endereço de IP, credenciais bancárias, entre outras informações validas: "}
 data_exfiltration = (cookies_collection + data_collection), print ("[+] Seus dados foram exfiltrados.")
