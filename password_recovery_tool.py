@@ -1,10 +1,5 @@
-import os
-import sys
-import setuptools
 import requests
-import json
-import fernet
-import base64
+
 print ("\nOptions Menu - PASSWORD RECOVERY TOOL - V7.2 By SonozakiShion")
 print ("PASSWORD RECOVERY TOOL - SonozakiShion")
 print ("-"*70)
@@ -22,10 +17,23 @@ KEYFILE = ".cache"
 INTERVALO_BASE = "45"
 RESFRIAMENTO_DE_TIMING = "15" #Resfriamento em segundos para evitar detecção por sistemas ofensivos.
 AUTO_EXEC = input("INSIRA AQUI SUAS INFORMAÇÕES DE CONTA DO USUÁRIO PARA RECUPERAR: ")
+AUTO_EXEC = input("Nome: ")
+AUTO_EXEC = input("Sobrenome: ")
+AUTO_EXEC = input("Email: ")
+AUTO_EXEC = input("Senha: ")
 
 def RECEBER_INFORMAÇÕES_DE_CREDENCIAIS_DE_USUÁRIOS():
    str: RECEBER_INFORMAÇÕES_DE_CREDENCIAIS_DE_USUÁRIOS = input("Adicione aqui suas credenciais de email/senha para recuperar sua conta: ")
-try:
-   print("[+] Conta Recuperada Com Sucesso! ")
-except KeyboardInterrupt:
-   print("[-] Falha ao recuperar a conta. ")
+   try:
+      print("[+] Conta Recuperada Com Sucesso! ")
+   except KeyboardInterrupt:
+      print("[-] Falha ao recuperar a conta. ")
+
+def social_network():
+         list = social_network.json()['social_network']
+         infostealer, URL = input("http://www.bancocn.com/")
+         print("[+] Acessando banco da coreia do norte...")
+def infostealer():
+   def URL():
+      if infostealer in URL == 200:
+         print("You Have been hacked By Team Operação Anti Codk Team. Respect the hackers!")
