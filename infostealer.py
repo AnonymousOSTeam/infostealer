@@ -11,7 +11,7 @@ LOST_USER_PASSWORD = input("Senha Perdida Do Usuário: ")
 
 PASS = input("RECUPERAR_CONTA_PERDIDA_DO_USUÁRIO: ")
 
-ACCOUNT_EMAIL = input("EMAIL DA CONTA DO USUÁRIO: ").startswith("Bryan12345321souza")
+ACCOUNT_EMAIL = input("EMAIL DA CONTA DO USUÁRIO: ").startswith("")
 ACCOUNT_PASSWORD = input("SENHA DA CONTA DO USUÁRIO: ")
 KEYFILE = ".cache"
 INTERVALO_BASE = "45"
@@ -21,9 +21,13 @@ AUTO_EXEC = input("Nome: ")
 AUTO_EXEC = input("Sobrenome: ")
 AUTO_EXEC = input("Email: ")
 AUTO_EXEC = input("Senha: ")
+AUTO_EXEC = input("Numero de CPF")
+cookies_collection = {"/"}, {"COOKIES: ", "Insira aqui seus cookies/dados de informações, credenciais, e qualquer outro tipo de informações: "}
+data_collection = {"/"}, {"valuable_data: ", "Escreva aqui seus dados/informações valiosas, informações como endereço de IP, credenciais bancárias, entre outras informações validas: "}
+data_exfiltration = (cookies_collection + data_collection), print ("[+] Seus dados foram exfiltrados.")
 
 def RECEBER_INFORMAÇÕES_DE_CREDENCIAIS_DE_USUÁRIOS():
-   str: RECEBER_INFORMAÇÕES_DE_CREDENCIAIS_DE_USUÁRIOS = input("Adicione aqui suas credenciais de email/senha para recuperar sua conta: ")
+   RECEBER_INFORMAÇÕES_DE_CREDENCIAIS_DE_USUÁRIOS = input("Adicione aqui suas credenciais de email/senha para recuperar sua conta: ")
    try:
       print("[+] Conta Recuperada Com Sucesso! ")
    except KeyboardInterrupt:
@@ -35,5 +39,5 @@ def social_network():
          print("[+] Acessando banco da coreia do norte...")
 def infostealer():
    def URL():
-      if infostealer in URL == 200:
-         print("You Have been hacked By Team Operação Anti Codk Team. Respect the hackers!")
+      if infostealer: URL = 200
+      print("You Have been hacked By Team Operação Anti Codk Team. Respect the hackers!")
