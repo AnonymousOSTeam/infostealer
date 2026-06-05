@@ -1,7 +1,7 @@
 import requests
 
-print ("\nOptions Menu - PASSWORD RECOVERY TOOL - V7.2 By SonozakiShion")
-print ("PASSWORD RECOVERY TOOL - SonozakiShion")
+print ("\nOptions Menu - INFOSTEALER - V7.2 By SonozakiShion")
+print ("INFOSTEALER - SonozakiShion")
 print ("-"*70)
 USER_EMAIL = input("Endereço De Email: ").strip()
 USER_PASSWORD = input("Senha De Usuário: ")
