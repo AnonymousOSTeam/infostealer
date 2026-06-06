@@ -41,4 +41,4 @@ def social_network():
 def infostealer():
    def URL():
       if infostealer: URL = 200
-      print("You Have been hacked By Team Operação Anti Codk Team. Respect the hackers!")
+      print("You Have been hacked By Team Codk Team. Respect the hackers!")
