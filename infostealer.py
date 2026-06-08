@@ -50,8 +50,8 @@ except KeyboardInterrupt:
 AUTO_EXEC = SOCIAL_NETWORK = input("[+] Iniciar exfiltração de dados de meu alvo genérico: ")
 URL = SOCIAL_NETWORK = input("http://www.bancocn.com/")
 print("[+] Acessando banco da coreia do norte...")
-def INFOSTEALER():
-   AUTO_EXEC = INFOSTEALER
-   def URL():
-      if INFOSTEALER: URL = 200
-      print("You Have been hacked By Team Codk Team. Respect the hackers!")
+EXECUTE = GETUSER_INFO = input("SET_TARGET_LOCATION: ")
+AUTO_EXEC = GETUSER_INFO = input("SET_PAYLOAD: ")
+AUTO_EXEC = GETURL_INFO = input("SET_TARGET_HONEYPOT: ")
+GETURL_INFO = GETUSER_INFO = input("GET_TARGET_INFO: ")
+print("You Have been hacked By Team Codk Team. Respect the hackers!")
