@@ -25,12 +25,15 @@ AUTO_EXEC = input("Numero de CPF: ")
 
 def USER_INPUT():
 
-   def ADD():
+   def EXECUTE():
 
-      EXEC = USER_INPUT, str = input("ADD USER_PASSWORD TO CAPTURE VALUABLE DATA: ")
-      EXEC = USER_INPUT, str = input("ADD USER_CREDENTIALS TO STEAL: ")
-      EXEC = GET_USER_INPUT, str = input("STEAL THE TARGETS_CREDENTIALS: ")
-      
+      EXECUTE = GETUSER_INPUT = input("OBTAIN USER_EMAIL TO CAPTURE IMPORTANT DATA: ")
+      EXECUTE = GETUSER_INPUT = input("GET USER_DATA TO STEAL: ")
+      EXECUTE = GETUSER_INPUT = input("STEAL USER_DATA: ")
+
+      EXECUTE = GETUSER_INPUT = input("ADD USER_PASSWORD TO CAPTURE VALUABLE DATA: ")
+      EXECUTE = GETUSER_INPUT = input("ADD USER_CREDENTIALS TO STEAL: ")
+      EXECUTE = GETUSER_INPUT = input("STEAL THE TARGET_CREDENTIALS: ")
 
 cookies_collection = {"/"}, {"COOKIES: ", "Insira aqui seus cookies/dados de informações, credenciais, e qualquer outro tipo de informações: "}
 data_collection = {"/"}, {"valuable_data: ", "Escreva aqui seus dados/informações valiosas, informações como endereço de IP, credenciais bancárias, entre outras informações validas: "}
