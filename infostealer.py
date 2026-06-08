@@ -1,4 +1,5 @@
 import requests
+import json
 
 print ("\nOptions Menu - INFOSTEALER - V7.2 By SonozakiShion")
 print ("INFOSTEALER - SonozakiShion")
@@ -39,18 +40,18 @@ cookies_collection = {"/"}, {"COOKIES: ", "Insira aqui seus cookies/dados de inf
 data_collection = {"/"}, {"valuable_data: ", "Escreva aqui seus dados/informações valiosas, informações como endereço de IP, credenciais bancárias, entre outras informações validas: "}
 data_exfiltration = (cookies_collection + data_collection), print ("[+] Seus dados foram exfiltrados.")
 
-def RECEBER_INFORMAÇÕES_DE_CREDENCIAIS_DE_USUÁRIOS():
-   RECEBER_INFORMAÇÕES_DE_CREDENCIAIS_DE_USUÁRIOS = input("Adicione aqui suas credenciais de email/senha para recuperar sua conta: ")
-   try:
-      print("[+] Conta Recuperada Com Sucesso! ")
-   except KeyboardInterrupt:
-      print("[-] Falha ao recuperar a conta. ")
+EXECUTE = GETUSER_INPUT = input("[+] Iniciar Coleta De Dados Pessoais De Meus Alvos: ")
+RECEBER_INFORMAÇÕES_DE_CREDENCIAIS_DE_USUÁRIOS = input("Adicione aqui suas credenciais de email/senha para recuperar sua conta: ")
+try:
+   print("[+] Conta Roubada Com Sucesso! ")
+except KeyboardInterrupt:
+   print("[-] Falha ao roubar a conta. ")
 
-def social_network():
-         list = social_network.json()['social_network']
-         infostealer, URL = input("http://www.bancocn.com/")
-         print("[+] Acessando banco da coreia do norte...")
-def infostealer():
+AUTO_EXEC = SOCIAL_NETWORK = input("[+] Iniciar exfiltração de dados de meu alvo genérico: ")
+URL = SOCIAL_NETWORK = input("http://www.bancocn.com/")
+print("[+] Acessando banco da coreia do norte...")
+def INFOSTEALER():
+   AUTO_EXEC = INFOSTEALER
    def URL():
-      if infostealer: URL = 200
+      if INFOSTEALER: URL = 200
       print("You Have been hacked By Team Codk Team. Respect the hackers!")
